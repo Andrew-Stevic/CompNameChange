@@ -24,7 +24,7 @@ else {
 $registryPath = "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power"
 $keyName = "HiberbootEnabled"
 
-if (Test-Path $resgistryPath) {
+if (Test-Path $registryPath) {
     Set-ItemProperty -Path $registryPath -Name $keyName -Value 0
     Write-Host "Fast Boot disabled successfully."
 }
