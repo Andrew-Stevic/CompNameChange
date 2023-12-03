@@ -34,4 +34,4 @@ else {
 
 # Display Reboot Message
 Add-Type -AssemblyName System.Windows.Forms
-[System.Windows.Forms.MessageBox]::Show("This Message is from IT Support. Changes have been made to your computer and a reboot is required. At your convenience, please shut down and then restart your computer. Please contact the help desk with any questions.", "Reboot Required", [System.Windows.Forms.MessageBoxButton]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
+[System.Windows.Forms.MessageBox]::Show("This Message is from IT Support. Changes have been made to your computer, reboot your PC at your earliest convenience. Please contact the help desk with any questions.", "Reboot Required", [System.Windows.Forms.MessageBoxButton]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
